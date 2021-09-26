@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> The Peng Collections</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/62aaac182e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo-test-removebg-preview.png" width="125px" height="60px" alt="mylogo">
+
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li> <a href="#home">Home</a></li>
+                        <li> <a href="#featured-product">Featured Products</a></li>
+                        <li> <a href="#latest-product">Latest Products</a></li>
+                        <!-- <li> <a href="">Special Offers</a></li> -->
+                        <!--<li> <a href="#about">About Us</a></li> -->
+                        <li> <a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <!--<img src="images/shopping_cart-rm.png" width="30px" height="30px" alt=""> -->
+                <img src="images/menu-icon.png" class="menu-icon" width="30px" height="30px" alt="" onclick="menuToggle()" >
+
+                
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Your Fashion Taste Just<br>Hit A New High!</h1>
+                    <p>At Peng Collections, we ensure that you get a great and amazing deal. We are intentional about our offers and we care much about your patronage. With a thousand naira or more, you can get going on our amazing products.
+                    </p>
+                    <a href="#featured-product" class="btn">Explore Now &#8594;</a>
+
+
+                </div>
+                <div class="col-2">
+                    <img src="images/image2-rm.png" alt="">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" class="go to top">
+        Top
+    </button>
+    <!------featured categories ----->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/featured-4.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/featured-5.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/featured-6.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- featured products -->
+    <div class="small-container" id="featured-product">
+        <h2 class="title"> Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Anniversary package</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₦30,000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Vintage Scarf Box</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₦20,000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Gift Package</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₦8,000</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Jersey Scarf</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₦2,900</p>
+            </div>
+        </div>
+        <!-- Row 1-->
+            <h2 class="title" id="latest-product"> Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/product-5.jpg" alt="">
+                    <h4>Unisex Shades</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₦2,000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg" alt="">
+                    <h4>Wristwatch and Bracelet</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>₦4,500</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-9.jpg" alt="">
+                    <h4>Gift Package</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₦15,000</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg" alt="">
+                    <h4>Pearl Two Way Necklace</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₦2,000</p>
+                </div>
+
+                <!-- Row 1 End-->
+
+                <!-- Row 2 Start-->
+                <div class="row">
+                    <div class="col-4">
+                        <img src="images/product-8.jpg" alt="">
+                        <h4>Cotton Scarf Gift Package</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₦18,000</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-6.jpg" alt="">
+                        <h4>Chiffon Scarf</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <p>₦2,500</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-3.jpg" alt="">
+                        <h4>Gift Package</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₦8,000</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-4.jpg" alt="">
+                        <h4>Boss Ladies Leather Sneakers</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>₦9,000</p>
+                    </div>
+
+                <!--Row 2 End-->
+<!--
+                Row 3 Start
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/product-1.jpg" alt="">
+                            <h4>Men White T-Shirt</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₦3,500</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-2.jpg" alt="">
+                            <h4>Women Boot</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>₦11,500</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-3.jpg" alt="">
+                            <h4>Push Indoor Anti Slip</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₦3,820</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-4.jpg" alt="">
+                            <h4>Boss Ladies Leather Sneakers</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>₦9,000</p>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+    </div>
+                <!------ exclusive products ----->
+                <div class="testimonial">
+                    <div class="small-container">
+                        <h2 class="title"> Feedbacks </h2>
+                        <div class="row">
+                            <div class="col-3">
+                                <i class="fas fa-quote-left"></i>
+                                <p> Product came as shown on the webpage. It was nice buying from you. I will refer my friends.</p>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <br>
+                                <img src="images/feedback-1.jpg" alt="">
+                                <p>Shade</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-quote-left"></i>
+                                <p> Product came as shown on the webpage. It was nice buying from you. I will refer my friends.</p>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <br>
+                                <img src="images/feedback-1.jpg" alt="">
+                                <p>Kola</p>
+                            </div>
+                            <div class="col-3">
+                                <i class="fas fa-quote-left"></i>
+                                <p> Enjoyed doing business with the seller. Hope to buy more shoes from her.</p>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <i class="fas fa-check"></i>
+                                <br>
+                                <img src="images/feedback-1.jpg" alt="">
+                                <p> Kamal </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <!-- Contact section -->
+                <div class="contact" id="contact">
+                    <div class="container">
+                        <h2 class="title"> Contact us</h2>
+                            <p> Have enquiries and want to make suggestions on our product and services, please reach out to us.</p>
+                            <br>
+                            <p> Your details are safe with us.</p>
+                            <br>
+                        <div class="row">
+                            <div class="right-col">
+                                <div class="form-contact">
+                                    <form action="">
+                                        <label for="name"><p> Name </p> </label>
+                                        <input type="text" name="fname" placeholder="Name">
+
+                                        <label for="email"><p> Email </p> </label>
+                                        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
+
+                                        <label for="name"><p> Message </p> </label>
+                                        <input type="text" name="message" placeholder="Enter your message" id="mssg-box">
+                                        
+                                        <input type="submit" value="Submit" class="btn">
+                                    </form>
+                                </div>
+
+                            </div>
+                            <div class="left-col">
+                                    <div>
+                                        <br>
+                                        <i class="fas fa-map-pin"></i>
+                                        <br>
+                                        <p> Lagos, Nigeria</p>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div>
+                                        <i class="fas fa-phone"></i>
+                                        <br>
+                                        <p>+234 81 000 000 00</p>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div>
+                                        <i class="fas fa-mail-bulk"></i>
+                                        <br>
+                                        <p>mybusiness@gmail.com</p>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <div>
+                                        <img src="images/facebook.png" alt="" width="30px" height="30px">
+                                        <img src="images/twitter.png" alt="" width="30px" height="30px">
+                                        <img src="images/instagram.png" alt="" width="30px" height="30px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Footer  -->
+                <div class="footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-col-4">
+                                <img src="images/logo-footer.jpg" width="125px" height="60px" alt="mylogo">
+                                <p>Our purpose is to get you the best fashion no matter what your budget is.</p>
+                            </div>
+                            <div class="footer-col-4">
+                                <h3>Follow us:</h3>
+                                <ul>
+                                    <li> <a href=""> Twitter  </a> </li>
+                                    <li> <a href=""> Facebook </a> </li>
+                                    <li> <a href=""> Instagram </a> </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col-4">
+                                <h3>Useful links</h3>
+                                <ul>
+                                    <li> Return policy </li>
+                                    <li> Join affliate </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col-4">
+                                <h3>Useful links</h3>
+                                    <ul>
+                                        <li> Return policy </li>
+                                        <li> Join affliate </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- Main JS files -->
+<script src="main.js">  </script>
+
+</body>
+
+
+
+</html>
