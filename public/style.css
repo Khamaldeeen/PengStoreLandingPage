@@ -189,12 +189,14 @@ h4{
 }
 .right-col {
     padding: 0;
-    width: 75%;
+    min-width: 250px;
+    flex-basis: 75%;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 }
 .left-col {
     padding: 15px 20px;
-    width: 25%;
+    min-width: 250px;
+    flex-basis: 25%;
     min-height: 430px;
     text-align: center;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
@@ -232,6 +234,9 @@ input[type=submit] {
 #mssg-box {
     height: 100px;
 }
+/* -----Modal return policy ------*/
+
+
 /*------ footer ------*/
 
 .footer{
