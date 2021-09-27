@@ -235,7 +235,56 @@ input[type=submit] {
     height: 100px;
 }
 /* -----Modal return policy ------*/
+.modal {
+    display: none;
+    z-index: 1;
+    transition: transform 0.7s;
+    position: fixed;
+    left: 25%;
+    top: 15%;
+    width: 50%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto;
+    background-color: rgb(236, 213, 213);
+    border-radius: 8px;
+    border: 1px solid rgb(231, 187, 187);
 
+
+}
+
+.modal h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.close {
+    color: rgb(173, 64, 64);
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.modal-container {
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.return:hover,
+.return:focus {
+    color:rgb(231, 187, 187);
+    cursor: pointer;
+    text-decoration: none;
+
+}
 
 /*------ footer ------*/
 
