@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site" : "pengcollections",
+    "site": "pengcollections",
     "public": "public",
     "ignore": [
       "firebase.json",
