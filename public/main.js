@@ -15,12 +15,7 @@ closemodal.onclick = () => {
   modal.style.display = 'none';
 };
 
-//User action on clicking anywhere outside of the modal page 
-window.onclick = function(e) {
-  if (e.target == modal) {
-    modal.style.display = "none";
-  }
-}
+//User action on clicking anywhere outside of the modal page
 
 
 
